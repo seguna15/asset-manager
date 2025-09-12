@@ -9,6 +9,7 @@ async function GalleryPage(){
     })
 
     if(session && session?.user?.role === "admin") redirect("/")
+        
     return (
         <div>GalleryPage</div>
     )
